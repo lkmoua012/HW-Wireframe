@@ -1,6 +1,9 @@
 *{
     background-color: gray;
     color: gray;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    width: 960px;
 }
 
 .box{
@@ -8,7 +11,7 @@
     padding-right: 200px;
     padding-bottom: 25px;
     padding-left: 200px;
-    background-color: white;
+    background:#ebebeb;
     float: left;
     width: 495px;
     text-align: center;
@@ -16,36 +19,91 @@
     margin-top: 10px;
 }
 
-.box2{
+.sbox2{
     padding-top: 25px;
-    padding-right: 275px;
-    padding-bottom: 200px;
-    padding-left: 200px;
-    background-color: white;
+    padding-right: 6px;
+    padding-bottom: 220px;
+    padding-left: 5px;
+    background-color: #ebebeb;
     float: left;
-    width: 10px;
+    width: 495px;
     text-align: center;
     margin-left: 100px;
     margin-top: 25px;
+    position: absolute;
+    top: 175px;
 }
 
-.box3{
+.abox3{
     padding-top: 25px;
-    padding-right: 190px;
-    padding-bottom: 200px;
-    padding-left: 200px;
-    background-color: white;
+    padding-right: 10px;
+    padding-bottom: 220px;
+    padding-left: 10px;
+    background-color: #ebebeb;
     float: left;
-    width: 10px;
+    width: 358px;
     text-align: center;
     margin-left: 10px;
     margin-top: 25px;
+    position: absolute;
+    top: 175px;
+    left: 615px;
 }
 
 .pbox{
-    background-color: black;
+    background-color: #777;
+    padding-top: 25px;
+    padding-bottom: 135px;
     position: absolute;
-    left: 5%;
-    top: 50%;
-    z-index: 100;
+    top: 275px;
+    left: 113px;
+    color: #ebebeb;
+    width: 495px;
+    text-align: center;
+}
+
+.mbox{
+    padding-bottom: 10px;
+    padding-right: -100px;
+    padding-top: 10px;
+    float: left;
+    width: 460px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 25px;
+    position: absolute;
+    top: 320px;
+    left: 30px;
+    color: #777;
+    background: #ebebeb;
+}
+
+.mboxp{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    float: left;
+    width: 460px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 25px;
+    position: absolute;
+    top: 370px;
+    left: 30px;
+    color: #777;
+    background: #ebebeb;
+}
+
+.fbox{
+    padding-top: 25px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-left: 200px;
+    background-color: #ebebeb;
+    float: right;
+    width: 495px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    position: absolute;
+    top: 475px;
 }
